@@ -1,1 +1,14 @@
-YmluLwpvYmovCioudXNlcgoqLnN1bwoudnMvCnNlbGZ0ZXN0LmxvZwpzZWxmdGVzdF90bXAvCnB1Ymxpc2gvCgojIOe9keWFs+aVj+aEn+aVsOaNru+8jOe7neS4jeWFgeiuOi/m+S7k+W6kwphdXRocy8KZGF0YS8KY29uZmlnLmpzb24KKi5hcGlfa2V5Cg==
+bin/
+obj/
+*.user
+*.suo
+.vs/
+selftest.log
+selftest_tmp/
+publish/
+
+# 网关自身的敏感数据，绝不允许进仓库
+auths/
+data/
+config.json
+*.api_key
